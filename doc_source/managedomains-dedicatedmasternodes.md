@@ -35,7 +35,7 @@ If your cluster doesn't have the necessary quorum to elect a new master node, wr
 
 ## Choosing instance types for dedicated master nodes<a name="dedicatedmasternodes-instance"></a>
 
-Although dedicated master nodes don't process search and query requests, their size is highly correlated with the instance size and number of instances, indexes, and shards that they can manage\. For production clusters, we recommend, at a minimum, the following instance types for dedicated master nodes\. 
+Although dedicated master nodes don't process search and indexing requests, their size is highly correlated with the instance size and number of instances, indexes, and shards that they can manage\. For production clusters, we recommend, at a minimum, the following instance types for dedicated master nodes\. 
 
 These recommendations are based on typical workloads and can vary based on your needs\. Clusters with many shards or field mappings can benefit from larger instance types\. Monitor the [dedicated master node metrics](cloudwatch-alarms.md) to see if you need to use a larger instance type\.
 
